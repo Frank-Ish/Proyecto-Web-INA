@@ -1,0 +1,62 @@
+/* Globales */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;/*ESTO ES UN HACK QUE HACE QUE UN REM SEA IGUA A 10PX*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Utilidades*/
+
+.contenido {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+.cat-btn {
+    background-color: #9e8018 !important;
+}
+/* Header y Navegacion */
+.nombre-sitio {
+    margin-top: 5rem ;
+}
+.nombre-sitio span {
+    color: #9e8018;
+}
+
+.contenido-navegacion {
+    border-top: 1px solid #9e8018;
+}
+.con-principal {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.hero {
+    background-image: url(/img/interior.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55rem;
+}
+
