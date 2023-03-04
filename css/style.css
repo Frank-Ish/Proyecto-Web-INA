@@ -53,7 +53,7 @@ a {
     justify-content: space-between;
 }
 .hero {
-    background-image: url(/img/interior.jpg);
+    background-image: url(/proyecto/Proyecto-Web-INA/img/interior.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

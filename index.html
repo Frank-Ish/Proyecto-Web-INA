@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/carrusel.css">
+
 </head>
+
 <body>
     <header>
         <h1 class="nombre-sitio text-center">Tienda<span> HMH</span></h1>
@@ -71,20 +77,35 @@
     </section>
     <main class="container">
         <h2 class="text-center">Nuestros Productos</h2>
-        <div class="carousel">
-          <a class="carousel-item" href="#one!"><img src="/img/tienda.jpg"></a>
-          <a class="carousel-item" href="#two!"><img src="/img/tienda.jpg"></a>
-          <a class="carousel-item" href="#three!"><img src="/img/tienda.jpg"></a>
-          <a class="carousel-item" href="#four!"><img src="/img/tienda.jpg"></a>
-          <a class="carousel-item" href="#five!"><img src="/img/tienda.jpg"></a>
-        </div>
+        <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-2">button</a>
+            </div>
+            <div class="carousel-item hero" href="#one!">
+              <h2>First Panel</h2>
+              <p class="white-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+              <h2>Second Panel</h2>
+              <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+              <h2>Third Panel</h2>
+              <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item blue white-text" href="#four!">
+              <h2>Fourth Panel</h2>
+              <p class="white-text">This is your fourth panel</p>
+            </div>
+          </div>
     </main>
     <footer>
 
-    </footer>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="/js/main.js"></script>
-            
+  </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="/js/main.js"></script>
+
 </body>
+
 </html>
