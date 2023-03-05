@@ -1,0 +1,51 @@
+footer{
+
+    position: relative;
+    top: 700px;
+}
+
+.img1{
+
+position: relative;
+left: 50px;
+top: 200px;
+
+
+
+}
+
+.img2{
+
+height: 350px;
+width: 500px;
+position: relative;
+top: 370px;
+left: 50px;
+
+
+}
+
+
+
+.info1{
+
+position: relative;
+top: 100px;
+left: 150px;
+border-bottom: 5px  solid black;
+border-top: 5px solid black;
+
+
+}
+
+.info2{
+
+position: relative;
+top: 300px;
+left: 140px;
+border-bottom: 5px solid black;
+border-top: 5px solid black;
+
+
+}
+

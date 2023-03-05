@@ -1,0 +1,25 @@
+img{
+
+    height: 250px;
+width: 200px;
+
+padding:8px;
+background-color: #f5f5f5;
+width: 200px;
+border: 3px solid black;
+
+}
+
+.cuadro{
+
+background-color: blue;
+
+}
+
+.row{
+position: relative;
+    left: 60px;
+   top: 50px;
+
+}
+

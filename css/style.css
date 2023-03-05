@@ -13,9 +13,20 @@ body {
     line-height: 2;
 }
 
+header{
+
+height: 50px;
+background-color: black;
+
+
+}
+
+
 footer{
 
     background-color: black;
+    position: relative;
+    top: 700px;
 }
 
 h1, h2, h3 {
@@ -43,11 +54,15 @@ a {
 }
 /* Header y Navegacion */
 .nombre-sitio {
-    margin-top: 5rem ;
+    margin-top: px ;
 }
+
+
 .nombre-sitio span {
     color: #9e8018;
 }
+
+
 
 .contenido-navegacion {
     border-top: 1px solid #9e8018;
